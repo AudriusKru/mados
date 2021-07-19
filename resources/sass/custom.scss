@@ -1,0 +1,16 @@
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__content {
+        letter-spacing: .2px;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        * {
+            margin: 5px;
+        }
+    }
+}
