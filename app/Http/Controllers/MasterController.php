@@ -91,7 +91,7 @@ class MasterController extends Controller
      */
     public function destroy(Master $master)
     {
-        if($master->outfitMasters->count()){
+        if($master->masterOfOutfit->count()){
             return 'Trinti negalima, nes turi knygų';
             }
             $master->delete();
